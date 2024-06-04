@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 62.5%;
+        }
+
+        body{
+            background-color: rgb(69, 68, 68);
+
+        }
+
+        .container{
+            padding: 1.8rem 2.4rem;
+            display: flex;
+            flex-direction: column;
+            width: 35rem;
+            background-color: rgb(15, 15, 15);
+            margin: auto;
+            margin-top: 20rem;
+        }
+          .btn{
+            padding: 1rem 1.5rem;
+            background-color: rgb(216, 209, 18);
+            border: none;
+            border-radius: 1.5rem;
+            color: rgb(27, 27, 27);
+            border: 2px solid rgb(216, 209, 18);
+            width: 10rem;
+            margin-bottom: 3rem;
+            margin-left: 3rem;
+        }
+        .btn-container{
+            width: 80%;
+            grid-template-columns: 1fr 1fr;
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
+        .numberdisplay
+        {
+             color: rgb(17, 173, 230);
+             font-size: 8rem;
+             display: flex;
+             justify-content: center;
+             margin-bottom: 3rem;
+             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             background-color: rgb(37, 36, 36);
+        }
+        @media (width<420px){
+            html{
+                font-size: 50%;
+            }
+        }
+            @media (width<335px){
+            html{
+                font-size: 45%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container"><div class="numberdisplay"></div>
+<div class="btn-container">
+    <button class="btn">Start</button>
+    <button class="btn">Stop</button>
+    <button class="btn">Reset</button>
+    <button class="btn">Reset</button>
+    <button class="btn">Reset</button>
+</div>
+</div>
+
+<script>
+
+</script>
+</body>
+</html>
